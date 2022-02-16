@@ -18,6 +18,8 @@ public class Revision {
 		System.out.println(h); //56
 		int k = 45;
 		int l = ++k;
+		int z =k+1;
+		System.out.println(z);
 		System.out.println(h); //56
 		System.out.println(j); //55
 		System.out.println(k); //46
