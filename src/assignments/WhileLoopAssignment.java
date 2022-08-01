@@ -15,10 +15,25 @@ public class WhileLoopAssignment {
 		  
 			int k = 1;
 			while (k <= 10) {
-				System.out.println(k);
+				System.out.println("k is"+k);
 				k++;
 			}
 		  
+			int aj = 1;
+			while(aj>=10)
+			{
+				System.out.println("aj is --->"+aj);
+				aj++;
+			}
+			int ax = 1;
+			do
+			{
+				System.out.println("ax is :"+ax);
+				ax++;
+			}
+		 while (ax<=10);
+	}
+	{
 		 
 			
 			for(int q=1; q<=10; q++)

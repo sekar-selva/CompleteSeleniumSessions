@@ -7,10 +7,9 @@ public class LoopsAssignment1 {
 		// I am a Batman in 7 times
 		
 		
-		for(int i=0;i<5;i++)
+		for(int i=0;i<7;i++)
 		{
-			char s = 'I';
-			System.out.println(s++);
+			System.out.println("I am the batman");
 		}
 
 	}

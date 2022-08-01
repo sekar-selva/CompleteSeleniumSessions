@@ -21,6 +21,10 @@ public class IfesleStatements {
 		{
 			System.out.println("Launch IE");
 		}		
+		else if(browser.equals("safari"))
+		{
+			System.out.println("Launch the safari browser");
+		}
 		else {
 			System.out.println("Please pass the correct browser");
 		}
