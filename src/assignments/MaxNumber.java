@@ -6,7 +6,7 @@ public class MaxNumber {
 
 	public static void main(String[] args) {
 		
-		int a[] = {1,5,7,8,9,11,15,12,17,0};
+		int a[] = {1,5,7,8,9,11,15,12,17,0,56};
 		Arrays.sort(a);
 			System.out.println("Sorted array is:"+Arrays.toString(a));
 			//System.out.println(b);

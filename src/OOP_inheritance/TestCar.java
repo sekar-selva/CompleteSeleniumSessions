@@ -12,7 +12,8 @@ public class TestCar {
 		b.autoGear();
 		b.stop();
 		Car.roofTop(); // rooftop is static method so it can be accessed via classname.methodname
-
+		Car c1 = new BMW();
+		
 	}
 
 }

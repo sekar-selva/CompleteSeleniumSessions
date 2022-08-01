@@ -57,6 +57,10 @@ public class Revision {
 		{
 			System.out.println("Provided string is fail");
 		}
+		for(;;)
+		{
+			
+		}
 	}
 
 }

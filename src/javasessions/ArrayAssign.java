@@ -2,6 +2,7 @@ package javasessions;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 
 public class ArrayAssign {
 
@@ -100,6 +101,7 @@ public class ArrayAssign {
 		emp[4]=true;
 		System.out.println("-----------");	
 		System.out.println("Length of the array is:" +emp.length);
+		System.out.println("*****************************");
 		System.out.println(Arrays.toString(emp));
 		for(int q= 0;q<emp.length;q++)
 		{
@@ -114,6 +116,24 @@ public class ArrayAssign {
 		for(int h=0;h<al.size();h++)
 		{
 			System.out.println(al.get(h));
+		}
+		
+		for(int i = 0; i<5; i++)
+		 {
+		 System.out.println("Hello");
+		 i+=2;
+		 }
+		String s = "friends";
+		  int o = 0;
+		 
+		do {
+		  System.out.print(s.charAt(o));
+		  o++ ;
+		 } while (o < 2);
+		
+		for(int z = 0; z<5; z++);
+		{
+			System.out.println("FB");
 		}
 		
 		

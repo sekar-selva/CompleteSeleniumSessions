@@ -10,4 +10,6 @@ public class BMW extends Car {
 	public void autoGear() {
 		System.out.println("BMW ---- gear type");
 	}
+	
+	
 }
